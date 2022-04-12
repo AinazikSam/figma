@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odigo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="https://elala91.github.io/odigo/odigo-Logo.png" alt="logo">
+            <ul id="links">
+                <a href="">
+                    <li>Articles</li>
+                </a>
+                <a href="">
+                    <li>Locations</li>
+                </a>
+                <a href="">
+                    <li>Videos</li>
+                </a>
+                <a href="">
+                    <li>Sign In</li>
+                </a>
+            </ul>
+            <button id="menu" onclick="showMenu()">menu</button>
+            <script>
+                function showMenu() {
+                    var x = document.getElementById("links")
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+        <div id="content">
+            <div id="intro">
+                <h1 id="intro_title">Discover Amazing places in Japan</h1>
+                <p id="intro_sub">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p>
+            </div>
+            <form action="">
+                <fieldset id="setField">
+                    <div class="inputDiv">
+                        <img src="https://elala91.github.io/odigo/Oval.png" alt="">
+                        <input class="inputText" type="text" name="selected-activity" placeholder=" What would you like to do? "></div>
+                    <div class="inputDiv ">
+                        <img src="https://elala91.github.io/odigo/Oval.png" alt=" ">
+                        <input class="inputText " name="selected-place" type="text " placeholder="Where would you like to go? "></div>
+                    <button type="submit " id="btn_search" class="search-form_submit">SEARCH</button>
+            </form>
+        </div>
+    </div>
+    <div class="Benefits">
+        <h2>Benefits of Odigo</h2>
+        <div class="items">
+            <div class="item">
+                <img src="https://elala91.github.io/odigo/icon-a.png">
+                <h4 class="h4">Welcome to Odigo</h4>
+                <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
+                <ul>LEARN MORE</ul>
+                <li>
+                    <a><img src="./Shapew.svg"></a>
+                </li>
+            </div>
+
+            <div class="item">
+                <img src="https://elala91.github.io/odigo/icon-b.png">
+                <h4 class="h4">Your Personal Japan Guide</h4>
+                <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
+                <ul>LEARN MORE</ul>
+                <li>
+                    <a><img src="./Shapew.svg"></a>
+                </li>
+            </div>
+
+            <div class="item">
+                <img src="https://elala91.github.io/odigo/icon-c.png">
+                <h4 class="h4">Promotion Local Business</h4>
+                <p>Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
+                <ul>LEARN MORE</ul>
+                <li>
+                    <a><img src="./Shapew.svg"></a>
+                </li>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
